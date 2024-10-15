@@ -1,0 +1,48 @@
+
+
+#listToggleDiv{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    gap: 10px;
+    background-image: linear-gradient(50deg,#1011103d, #100e1d 50%,#0b0e09);
+    height: 250px;
+}
+
+#listHorizontDiv{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction:row;
+    padding-bottom: 50px;
+}
+
+li{
+    color: bisque;
+    height: 20px;
+    list-style: none;
+}
+
+#listDiv{
+    height: 100px;
+    display: block;
+    margin-right: 200px;
+}
+
+#toggleButton{
+    align-items: center;
+    background-image: linear-gradient(3200deg,#cbcecb3d, #151416 50%,#629da1);
+    border-radius: 15px;
+    font-size: large;
+    color:bisque;
+    margin-bottom: 30px;
+    width: 125px;
+    height: 75px;
+    margin-left: 20%;
+    position: fixed;
+}
+
+h1{
+    color:blanchedalmond;
+}

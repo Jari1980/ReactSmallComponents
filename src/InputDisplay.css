@@ -18,6 +18,8 @@ input{
     width: 250px;
     border:none;
     border-radius: 5px;
+    background-color:beige;
+    outline: none;
 }
 
 p{
@@ -34,6 +36,6 @@ button{
     border-radius: 15px;
     font-size: large;
     color:bisque;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     width: 250px;
 }
