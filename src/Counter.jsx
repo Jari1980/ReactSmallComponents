@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import './Counter.css'
 
-function Counter() {
+function Counter({color}) {
   const [counter, SetCounter] = useState(0);
 
   function addCounter(){
@@ -17,7 +17,7 @@ function Counter() {
     
       <div id="counterDiv">
         <h1 id="counterHeading">My Counter</h1>
-        <h2 id="counterDisplay">{counter}</h2>
+        <h2 id="counterDisplay" style={{color: color}}>{counter}</h2>
         <button id="button1" onClick={addCounter}>Press to increase</button>
         <button id="button2" onClick={decreaseCounter}>Press to decrease</button>
       </div>

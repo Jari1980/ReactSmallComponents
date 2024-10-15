@@ -8,9 +8,11 @@ import Timer from './Timer.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <Counter />
+    <Counter color="darkblue"/>
     <InputDisplay />
     <ListToggle />
     <Timer />
   </StrictMode>,
 )
+
+
