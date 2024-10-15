@@ -1,0 +1,72 @@
+
+
+#timerDiv{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    gap: 10px;
+    height: 300px;
+    background-image: linear-gradient(250deg,#e2610b3d, #30160a 50%,#11110f);
+    position:static;
+}
+
+#timerH{
+    color:blanchedalmond;
+}
+
+#timerContent{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction:row;
+    height: 150px;
+    position:sticky;
+}
+
+#timerP{
+    font-size:xx-large;
+    position: relative;
+    top: -10px;
+}
+
+#startPause{
+    position: relative;
+    top: 0px;
+}
+
+#startB{
+    align-items: center;
+    background-image: linear-gradient(150deg,#e2610b3d, #30160a 50%,#11110f);
+    border-radius: 15px;
+    font-size: large;
+    color:bisque;
+    margin-bottom: 30px;
+    width: 125px;
+    height: 75px;
+    
+}
+
+#pauseB{
+    align-items: center;
+    background-image: linear-gradient(150deg,#e2610b3d, #30160a 50%,#11110f);
+    border-radius: 15px;
+    font-size: large;
+    color:bisque;
+    margin-bottom: 30px;
+    width: 125px;
+    height: 75px;
+}
+
+#resetTimer{
+    height: 100px;
+}
+
+#resetB{
+    align-items: center;
+    background-image: linear-gradient(150deg,#e2610b3d, #30160a 50%,#11110f);
+    border-radius: 15px;
+    font-size: large;
+    color:bisque;
+    width: 250px;
+}
